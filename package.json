@@ -1,0 +1,30 @@
+{
+  "name": "design-system",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test-storybook": "test-storybook"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.2.25",
+    "@storybook/addon-a11y": "^8.0.5",
+    "@storybook/addon-essentials": "^8.0.4",
+    "@storybook/addon-interactions": "^8.0.4",
+    "@storybook/addon-links": "^8.0.4",
+    "@storybook/blocks": "^8.0.4",
+    "@storybook/html": "^8.0.4",
+    "@storybook/html-vite": "^8.0.4",
+    "@storybook/test": "^8.0.4",
+    "storybook": "^8.0.4",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@storybook/test-runner": "^0.17.0"
+  }
+}
